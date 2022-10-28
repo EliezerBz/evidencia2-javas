@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supercalculadora</title>
+    <link rel="stylesheet" href="css/js5.css">
+</head>
+<body>
+    <script src="JS/js5.js"></script>
+    <div class="contenedor">
+        <div class="titulo">
+            <h1>Javascript calculadora</h1>
+        </div>
+        
+        <div class="formulario">
+            <label for="numero1">Primer Numero: </label>
+            <input type="text" name="numero1" id="numero1">
+        </div>
+
+        <div class="formulario">
+            <label for="numero2">Segundo Numero: </label>
+            <input type="text" name="numero2" id="numero2">
+        </div>
+
+        <div class="formulario">
+            <label for="signo">Operacion que desea: </label>
+            <select name="signo" id="signo" form="signo">
+                <option value="+">Suma +</option>
+                <option value="-">Resta -</option>
+                <option value="*">Multiplicacion *</option>
+                <option value="/">Dividir /</option>
+              </select>
+        </div>
+
+        <div class="formulario">
+            <label for="resultado">Resultado: </label>
+            <input type="text" name="resultado" id="resultado" readonly>
+        </div>
+
+        <div class="boton">
+            <button onclick="calcular()">Calcular</button>
+        </div>
+    </div>
+</body>
+</html>
