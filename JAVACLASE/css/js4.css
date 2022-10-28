@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    background-color:blue ;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    height: 100px;
+}
+
+#funciones{
+    text-align: center;
+    background-color: aqua;
+    height: 400px;
+}
