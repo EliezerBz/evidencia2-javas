@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programas tabla</title>
+    <link rel="stylesheet" href="styletablas.css">
+</head>
+<body>
+    <section class ="mycontent">
+        
+        <div class="datos">
+            <div id="form">
+                <label for="tabla">Tablas: </label>
+                <input type="text" name="tabla" id="tabla">
+            </div>
+            <div id="form">
+                <label for="tipo">Tipo de Tabla: </label>
+                <input type="text" name="tipo" id="tipo">
+            </div>
+            <div id="form">
+                <label for="longitud">Longitud de la tabla: </label>
+                <input type="text" name="longitud" id="longitud">
+            </div>
+            <div id="boton-generar">
+                <button onclick="generaTabla()">Generar Tabla</button>
+            </div>
+            <div>
+                <button onclick="borrar()">Borrar tabla</button>
+            </div>
+            
+        </div>
+        <div class="result">
+            <h3>Resultados: </h3>
+            <br>
+            <div id="ref_tabla">
+
+            </div>
+        </div>
+        <script src="JS/js5_tables.js"></script>
+    </section>
+</body>
+</html>
