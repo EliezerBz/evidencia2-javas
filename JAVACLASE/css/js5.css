@@ -1,0 +1,31 @@
+body{
+    background-color: brown;
+} 
+
+.contenedor{
+    display: block;
+    background-color: yellowgreen;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    padding: 10px;
+
+}
+
+.formulario{
+    text-align: center;
+    padding: 10px;
+}
+
+.boton{
+    padding: 10px;
+    text-align: center;
+}
